@@ -1,0 +1,117 @@
+.navi{
+    display: flex;
+    padding-left: 300px;
+    gap: 30px;
+    background-color: #DAA520;
+    color: white;
+    height: 60px;
+    text-decoration:none;
+     transition:width .25s;
+      font-family:"Poppins",sans-serif;
+     font-weight:500;
+     color:var(--white);
+}
+
+#logo{
+   position: relative;
+   left: -7.8cm;
+}
+.dowloads{
+    display: flex;
+    gap: 25px;
+    border: solid 1px white;
+    border-radius: 20px;
+    color: black;
+    height: 47px;
+}
+.vision{
+    display: flex;
+    gap: 40px;
+   
+}
+.values{
+    margin-left: 350px;
+    color: #DAA520;
+}
+.details{
+    display: flex;
+    gap: 90px;
+    margin-left: 90px;
+     text-decoration: underline #DAA520;
+     color:rgb(238, 177, 9);
+}
+.expreience{
+    border: solid 2px #DAA520;
+    background-color: #DAA520;
+   color: white;
+   font-family:"Poppins",sans-serif;
+}
+.ours{
+    margin-left: 200px;
+    
+}
+.history{
+    display: flex;
+    gap: 40px;
+    font-family:"Poppins",sans-serif;
+    
+    
+}
+.past{
+    margin-left: 350px;
+}
+.originated{
+    border: solid 2px #DAA520;
+    background-color: #DAA520;
+    color: white;
+}
+.beginning{
+    /* border: solid 2px rgb(224, 186, 12); */
+    background-color: #DAA520;
+    color: white;
+}
+.inner-content{
+    margin-left: 300px;
+}
+.us{
+    margin-left: 253px;
+    color: #DAA520;
+}
+
+
+#dowload{
+    width: 30px;
+   position: relative;
+   left: 20px; 
+   
+    
+}
+
+.dowloads{
+    display: flex;
+    gap: 25px;
+    border: solid 1px white;
+    border-radius: 20px;
+    color: black;
+    height: 47px;
+   
+}
+.sales{
+    padding-left: 2.5cm;
+}
+.images{
+    margin-left: 158px;
+    gap: 50px;
+}
+
+
+
+
+    
+    
+
+
+
+
+
+

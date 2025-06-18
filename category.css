@@ -176,6 +176,105 @@ h2 {
     }
 }
 
+.discount {
+    background: var(--green); 
+    color: var(--white);
+    text-align: center; 
+    padding-top: 4rem; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.discount h2 {
+    color: var(--gold); 
+}
+
+.discount .subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 2rem; 
+}
+
+.discount .subtitle span {
+    font-weight: bold;
+    color: var(--gold);
+}
+
+.latest-offers-text {
+    font-size: 1.1rem;
+    margin-top: 2rem; 
+    margin-bottom: 1.5rem;
+    color: var(--white);
+}
+
+
+.aligned-offer-image {
+    max-width: 90%; 
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin: 2rem auto; 
+    display: block;
+    object-fit: cover;
+}
+
+.offer {
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 500px; 
+    width: 90%; 
+    margin: 2rem auto; 
+}
+
+.offer img { 
+    max-width: 80px;
+    margin-bottom: 1rem;
+}
+
+.offer h3 {
+    font-size: 1.6rem;
+    color: var(--gold);
+    margin-bottom: 0.8rem;
+}
+
+.offer p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    color: var(--white);
+}
+
+.offer button {
+    background: var(--gold);
+    color: var(--blue);
+    padding: 0.8rem 1.8rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: 1rem;
+}
+
+.offer button:hover {
+    background: darken(var(--gold), 10%); 
+    transform: translateY(-2px);
+}
+
+#countdown {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--gold);
+    margin-top: 1rem;
+}
+
 @media (max-width: 480px) {
     .navbar .logo {
         font-size: 1.3rem;

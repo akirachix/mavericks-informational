@@ -1,0 +1,208 @@
+#twitter{
+    width: 30px;
+}
+.icon{
+    background-color:blue;
+   padding-left: 600px;
+   height: 60px;
+}
+#icons{
+    width: 70px;
+}
+
+#logo{
+   position: relative;
+   left: -10.5cm;
+}
+.dowloads{
+    display: flex;
+    gap: 25px;
+    border: solid 1px white;
+    border-radius: 20px;
+    color: black;
+    height: 47px;
+   
+}
+
+
+
+
+.vision{
+    display: flex;
+    gap: 40px;
+   
+}
+.values{
+    margin-left: 350px;
+    color: #DAA520;
+}
+.details{
+    display: flex;
+    gap: 90px;
+    margin-left: 90px;
+     text-decoration: underline #DAA520;
+     color:rgb(238, 177, 9);
+}
+.expreience{
+    border: solid 2px #DAA520;
+    background-color: #DAA520;
+   color: white;
+   font-family:"Poppins",sans-serif;
+}
+.ours{
+    margin-left: 200px;
+    
+}
+.history{
+    display: flex;
+    gap: 40px;
+    font-family:"Poppins",sans-serif;
+    
+    
+}
+.past{
+    margin-left: 350px;
+}
+.originated{
+    border: solid 2px #DAA520;
+    background-color: #DAA520;
+    color: white;
+}
+.beginning{
+    /* border: solid 2px rgb(224, 186, 12); */
+    background-color: #DAA520;
+    color: white;
+}
+.inner-content{
+    margin-left: 300px;
+}
+.us{
+    margin-left: 253px;
+    color: #DAA520;
+}
+.fashion{
+    color: blue;
+}
+.shop{
+    display: flex;
+    gap: 60px;
+   
+   
+    color: white;
+}
+.deals{
+    color: #DAA520;
+    padding-left: 90px;
+}
+.start{
+ border: solid 3px blue;
+  background-color: blue;
+}
+.become{
+   border: solid 3px blue;
+  background-color: blue; 
+}
+.ask{
+    /* border: solid 2px #DAA520;
+    /* background-color: #DAA520; */ 
+    color: black;
+    width: 300px;
+    padding-left: 10px;
+    margin-left: 115px;
+    border-radius: 20px;
+    background-color: #DAA520;
+    color: white;
+    font-size: 25px;
+    height: 40px;
+   
+}
+.contents{
+   margin-left: 800px; 
+   font-family:"Poppins",sans-serif;
+   font-size: 25px;
+}
+#icons{
+    width: 70px;
+}
+#twitter{
+    width: 30px;
+}
+.icon{
+    background-color:blue;
+   padding-left: 600px;
+   height: 60px;
+}
+#dowload{
+    width: 30px;
+   position: relative;
+   left: 20px; 
+   
+    
+}
+#logo{
+   position: relative;
+   left: -10.5cm;
+}
+.dowloads{
+    display: flex;
+    gap: 25px;
+    border: solid 1px white;
+    border-radius: 20px;
+    color: black;
+    height: 47px;
+   
+}
+.sales{
+    padding-left: 2.5cm;
+}
+.vision{
+    display: flex;
+    gap: 20px;
+   
+}
+.values{
+    margin-left: 350px;
+    color: #DAA520;
+}
+.details{
+    display: flex;
+    gap: 90px;
+    margin-left: 150px;
+     text-decoration: underline #DAA520;
+     color:#DAA520;
+}
+.expreience{
+    border: solid 2px #DAA520;
+    background-color: #DAA520;
+   color: white;
+}
+.ours{
+    margin-left: 200px;
+    
+}
+.history{
+    display: flex;
+    gap: 40px;
+    
+    
+}
+.past{
+    margin-left: 350px;
+}
+.originated{
+    border: solid 2px #DAA520;
+    background-color: #DAA520;
+    color: white;
+}
+.beginning{
+    background-color: #DAA520;
+    color: white;
+}
+.inner-content{
+    margin-left: 300px;
+}
+.us{
+    margin-left: 250px;
+    color: #DAA520;
+}
+

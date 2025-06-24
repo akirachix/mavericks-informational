@@ -11,8 +11,52 @@
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-  <div class="container">
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html">
+          <img src="image/logo.png" alt="Mitumba Logo" class="logo" />
+        </a>
+        <button class="hamburger" id="nav-toggle" aria-label="Toggle navigation">
+          <span class="hamburger-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <i class="fa-solid fa-times hamburger-close" style="display: none;"></i>
+        </button>
+        <ul class="links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#container">How it Works</a></li>
+          <li><a href="how_it_works.html">About</a></li>
+          <li><a href="aboutUs.html">Testimonials</a></li>
+          <li><a href="#contact">Contacts</a></li>
+          <li><button><i class="fa-brands fa-google-play"></i>Download App</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="hero" id="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Mitumba eSales</h1>
+      <p>The smarter way to shop high-quality <br>second-hand clothes.</p>
+      <a href="#" id="joinBtn" class="btn">Join now</a>
+    </div>
+  </section>
+  <div id="joinModal" class="modal">
+    <div class="modal-box">
+      <button class="close-modal" aria-label="Close">&times;</button>
+      <h2>Welcome to Mitumba eSales!</h2>
+      <p>Thanks for your interest. Our signup is coming soon.</p>
+      <button class="btn btn-small close-modal">Close</button>
+    </div>
+  </div>
+
+  <!-- Buyer's Safety -->
+  <div class="container" id="container">
     <h1>Buying safely and securely</h1>
     <div class="steps-row">
       <div class="step-card">
@@ -54,6 +98,7 @@
       <button class="start-btn" id="startShopping">Start Shopping</button>
     </div>
   </div>
+  <!-- Offers -->
   <section class="offers-section">
     <h2 class="offers-title">Exclusive Offers and Smart Discounts</h2>
     <div class="offers-row">
@@ -62,9 +107,11 @@
       <img class="offer-img" src="Images/arrivals.png" alt="New Arrivals">
     </div>
   </section>
+
+  <!-- Footer -->
   <section class="footer-container">
     <div class="faq">
-      <h1>FAQ</h2>
+      <h1>FAQ</h1>
         <div class="faq-item">
           <p class="faq-question">What is Mitumba eSales? <span class="faq-toggle"><i
                 class="fas fa-chevron-down"></i></span></p>
@@ -91,7 +138,7 @@
           <small>Visit our <a href="" id="faq-link">support portal</a> to find answers your questions</small>
         </small>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
       <h1>Contact Us</h1>
       <form action="">
         <input type="text" placeholder="Your Name" required>

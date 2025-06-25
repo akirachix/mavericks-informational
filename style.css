@@ -1,0 +1,879 @@
+
+#phone{
+ margin-left: 70rem;
+ margin-top: -6rem;
+ width: 38em;
+ transform: rotate(-1deg);
+ height: 87vh;
+ }
+.originated{
+ background-color: #0B3D91;
+ /* border: solid 2px #0B3D91; */
+ width: 40rem;
+ height: 10vh;
+ left:30rem;
+ position: absolute;
+ color: white;
+ top: 15.5rem;
+ /* font-family:"Poppins"; */
+ padding: 15px 5px 5px 25px ;
+ font-size: 21px;
+ border-radius: 10px;
+ box-shadow: 0 4px 5px 0 black;
+ }
+.our-aim{
+ width: 40rem;
+ margin-left: 6rem;
+ position: absolute;
+ top: 27rem;
+ padding: 30px 0 10px 60px;
+ font-size: 20px;
+ background-color: white;
+ border-radius: 10px;
+ left: 50px;
+  box-shadow: 0 4px 5px 0;
+ }
+
+ .content{
+ background-color: #DAA520;
+ height: 73vh;
+ width: 90%;
+ /* margin-top: 10%; */
+ margin: 0 auto;
+ }
+.us{
+ color: #0E58D6;
+ font-family: "Poppins";
+ font-size: 2vw;
+ text-align: center;
+ }
+.mission{
+ position: relative;
+ top: 4cm;
+ left: -5cm;
+ z-index: 2;
+ color: #0B3D91;
+ font-size: 1.5vw;
+ text-align: center;
+ }
+
+
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+.us{
+ font-size: 5vw;
+ text-align: center;
+ }
+
+.originated{
+ width: 14rem;
+ height: 6vh;
+ line-height: 15px;
+ left:4rem;
+ top: 4rem;
+ padding: 5px 1px 5px 12px;
+ font-size: 8px;
+ }
+
+ .our-aim{
+ width: 12.5rem;
+ margin-left: 7.8rem;
+ top: 9rem;
+ padding: 10px 0 10px 30px;
+ font-size: 10px;
+ background-color: white;
+ border-radius: 10px;
+ left: -60px;
+  box-shadow: 0 4px 5px 0;
+ }
+
+
+ .content{
+ height: 85vh;
+ width: 90%;
+ }
+#phone{
+ margin-left: 2.7rem;
+ margin-top: 11rem;
+ width: 15em;
+ height: 50vh;
+ }
+
+
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 700px) {
+.us{
+ font-size: 4vw;
+ text-align: center;
+}
+ .content{
+ height: 90vh;
+ width: 90%;
+ margin-left: 5%;
+ }
+.originated{
+ width: 16rem;
+ height: 8vh;
+ line-height: 19px;
+ left:4.5rem;
+ top: 6rem;
+ padding: 7px 1px 5px 15px;
+ font-size: 10px;
+ }
+ .our-aim{
+ width: 15.2rem;
+ margin-left: 10.5rem;
+ top: 13rem;
+ padding: 10px 0 10px 30px;
+ font-size: 13px;
+ left: -23%;
+ }
+#phone{
+ margin-left: 4.5rem;
+ margin-top: 16rem;
+ width: 15em;
+ height: 50vh;
+ }
+}
+@media screen and (min-width: 701px) and (max-width: 800px) {
+.us{
+ font-size: 4.5vw;
+ text-align: center;
+}
+ .content{
+ height: 85.5vh;
+ width: 90%;
+ }
+.originated{
+ width: 26rem;
+ height: 10vh;
+ line-height: 23px;
+ left:13rem;
+ top: 7rem;
+ padding: 10px 1px 5px 15px;
+ font-size: 16px;
+ }
+ .our-aim{
+ width: 23rem;
+ margin-left: 10rem;
+ top: 16.5rem;
+ padding: 19px 0 10px 30px;
+ font-size: 15px;
+ left: -60px;
+ }
+#phone{
+ margin-left: 11rem;
+ margin-top: 17.5rem;
+ width: 19em;
+ height: 50vh;
+ }
+}
+
+@media only screen and (width: 820px) {
+  #phone {
+    width: 100vw;
+    max-width: 100%;
+    height: 20vh;
+    margin-left: 2cm;
+  }
+  .originated {
+    width: 80vw;
+    margin-left: -12vw;
+    top: 10vw;
+    font-size: 16px;
+    padding: 12px 5px 5px 12px;
+  }
+  .our-aim {
+    width: 95vw;
+    margin-left: -10cm;
+    left: 5vw;
+    top: 22vw;
+    padding: 20px 5px 10px 20px;
+    font-size: 16px;
+  }
+  .content {
+    width: 98vw;
+    height: auto;
+    margin: 0 auto;
+  }
+  .us {
+    font-size: 22px;
+  }
+  .mission {
+    top: 0;
+    left: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 912px) {
+.us{
+ font-size: 4.5vw;
+ text-align: center;
+}
+ .content{
+ height: 85.5vh;
+ width: 90%;
+ }
+.originated{
+ width: 33rem;
+ height: 8vh;
+ line-height: 28px;
+ left:12rem;
+ top: 12rem;
+ padding: 10px 1px 5px 15px;
+ font-size: 18px;
+ }
+ .our-aim{
+ width: 31rem;
+ margin-left: 16rem;
+ top: 23rem;
+ padding: 30px 0 10px 30px;
+ font-size: 18px;
+ left: -60px;
+ }
+#phone{
+ margin-left: 13rem;
+ margin-top: 25rem;
+ width: 25rem;
+ height: 50vh;
+ }
+}
+
+
+@media screen and (min-width: 913px) and (max-width: 1024px) {
+.us{
+ font-size: 2.5 vw;
+ text-align: center;
+}
+ .content{
+ height: 80vh;
+ width: 90%;
+ }
+.originated{
+ width: 25rem;
+ height: 10vh;
+ line-height: 20px;
+ left:11rem;
+ top: 8rem;
+ padding: 10px 1px 5px 15px;
+ font-size: 14px;
+ }
+ .our-aim{
+ width: 20rem;
+ margin-left: 9rem;
+ top: 16rem;
+ padding: 15px 0 10px 30px;
+ font-size: 15px;
+ left: -45px;
+ }
+#phone{
+ margin-left: 33rem;
+ margin-top: -2.5rem;
+ width: 23rem;
+ height: 90vh;
+ }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+.us{
+ font-size: 3vw;
+ text-align: center;
+}
+ .content{
+ height: 80vh;
+ width: 90%;
+ }
+.originated{
+ width: 36rem;
+ height: 10vh;
+ line-height: 22px;
+ left:19rem;
+ top: 7.5rem;
+ padding: 10px 1px 5px 15px;
+ font-size: 18px;
+ }
+ .our-aim{
+ width: 30rem;
+ margin-left: 9rem;
+ top: 15rem;
+ padding: 17px 0 10px 30px;
+ font-size: 18px;
+ left: -10px;
+ }
+#phone{
+ margin-left: 25rem;
+ margin-top: 14rem;
+ width: 19em;
+ height: 52vh;
+ }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+.us{
+ font-size: 3 vw;
+ text-align: center;
+}
+ .content{
+ height: 80vh;
+ width: 90%;
+ }
+.originated{
+ width: 33rem;
+ height: 10vh;
+ line-height: 23px;
+ left:11rem;
+ top: 14rem;
+ padding: 10px 1px 5px 15px;
+ font-size: 17px;
+ }
+ .our-aim{
+ width: 30rem;
+ margin-left: 9rem;
+ top: 23rem;
+ padding: 15px 0 10px 30px;
+ font-size: 20px;
+ left: -40px;
+ }
+#phone{
+ margin-left: 42rem;
+ margin-top: -4rem;
+ width: 28rem;
+ height: 92vh;
+ }
+}
+ @media (width:1024px) and (height:1366px) {
+  
+  
+  @media(width:1024px){
+  body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    
+    height: 30cm;
+    margin-left: 54px;
+  }
+  .originated{
+    width: 16cm;
+    margin: 6rem 2cm;
+    font-size: 23px;
+    padding: 20px;
+    height: 2cm;
+  }
+  .our-aim{
+    width: 16cm;
+    margin: 5cm 4cm;
+    font-size: 23px;
+  }
+   #phone{
+    margin:13cm 5cm;
+    width: 13cm;
+    height: 17cm;
+    rotate: -10deg;
+  } 
+   .us{
+    font-size: 55px;
+  }
+ }  
+  
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    @media(width:375px) {
+body{ 
+      padding: 0; 
+     margin: 0;
+     overflow-y: hidden; 
+    overflow: hidden;
+    
+    
+    
+ }
+ .us {
+   font-size: 25px;
+   margin-left: -1cm;
+ }  
+  .content {
+    
+  
+  width: 9.89cm;
+  height: 16.3cm;
+  margin-left:1% ;
+  margin: 0;
+ } 
+  #phone {
+  margin-left:1.5cm;
+  margin-top: 7.9cm; 
+  height: 8cm;
+  width: 6cm;
+  rotate: -10deg;
+   
+  }
+ .originated {
+   width: 8cm;
+   font-size: 18px;
+    margin: -10rem -12cm;
+    height: 4cm;
+
+ 
+ } 
+ .mission{
+    font-size: 0px;
+ }  
+ 
+ 
+  .our-aim {
+    width: 7cm;
+   font-size: 18px;
+    margin: -9.7rem -1.07cm;
+ } } 
+
+ 
+  
+ 
+
+  @media(width:414px){
+  body{
+    overflow-y: hidden;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+
+  }
+    .content{
+      width: 16.9cm;
+      height: 33.2cm;
+      overflow: hidden;
+
+      
+    }
+    #phone{
+      margin: 33rem 3rem;
+      height: 17cm;
+      rotate: -10deg;
+  
+      
+      
+    } 
+    .originated{
+      font-size: 35px;
+      width: 13cm;
+      margin: -6rem -27rem;
+      height: 7cm;
+    }
+    .our-aim{
+       font-size: 35px;
+      width: 13cm;
+      margin: 4rem -2rem;
+    }
+    .us{
+      font-size: 45px;
+      margin-left: 4cm;
+    }
+ } 
+
+
+ @media(width:390px){
+  body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+    .content{
+      height: 33.5cm;
+      width: 39.9rem;
+      padding: 0px 0px;
+      overflow: hidden;
+    }
+    #phone{
+      margin: 15.9cm 2rem;
+      height: 16.5cm;
+      rotate: -10deg;
+      
+    }
+    .originated{
+      width: 32rem;
+      font-size: 35px;
+      margin: -6rem -28rem;
+      height: 7cm;
+    }
+    .our-aim{
+      width: 32rem;
+      font-size: 35px;
+      margin: 2cm -2rem;
+    }
+    .us{
+      font-size:40px;
+      
+    } }
+    
+  
+ @media(width:430px){
+  body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    width: 16.9cm;
+    height: 34.1cm;
+    overflow: hidden;
+  }
+  .originated{
+    width: 14cm;
+    margin: -7rem -27rem;
+    font-size: 30px;
+    height: 6cm;
+  }
+  .our-aim{
+    width: 14cm;
+    margin: -1rem -2rem;
+    font-size: 30px;
+  }
+  #phone{
+    margin:28rem 3.5rem;
+    rotate: -10deg;
+    height: 23cm;
+  }
+  .us{
+    font-size: 45px;
+    margin-left: 3cm;
+  }
+ } 
+ @media(width:412px){
+  body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    width: 10.8cm;
+    height: 21.6cm;
+     overflow: hidden;
+  }
+  .originated{
+    width: 36vh;
+    margin: -8rem -28rem;
+    font-size: 25px;
+    height: 6cm;
+   
+  }
+  .our-aim{
+    width: 36vh;
+    margin: -2rem -2.6rem;
+    font-size: 25px;
+  }
+  #phone{
+    margin:27rem 4rem;
+    rotate: -10deg;
+    height: 10.6cm;
+    width: 9cm;
+  }
+  .us{
+    font-size: 35px;
+    margin-left:6cm ;
+  }
+ } 
+ @media(width:360px){
+  
+ body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    width: 16.9cm;
+    height: 32.1cm;
+     overflow: hidden;
+  }
+  .originated{
+    width: 14cm;
+    margin: -7rem -28rem;
+    font-size: 30px;
+    height: 6cm;
+  }
+  .our-aim{
+    width: 13cm;
+    margin: 2rem -1rem;
+    font-size: 30px;
+  }
+  #phone{
+    margin:35rem 3rem;
+    rotate: -10deg;
+  }
+  .us{
+    font-size: 40px;
+    margin-left: 4cm;
+  }
+ } 
+ @media(width:768px){
+  body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    width: 20.2cm;
+    height: 24.4cm;
+    overflow: hidden;
+  }
+  .originated{
+    width: 19cm;
+    margin: -7rem -29rem;
+    font-size: 28px;
+  }
+  .our-aim{
+    width: 17.5cm;
+    margin: -6rem -1rem;
+    font-size: 28px;
+  }
+  #phone{
+    margin:21rem 7.8rem;
+    width: 13cm;
+    height: 16cm;
+    rotate: -10deg;
+  }
+  .us{
+    font-size: 35px;
+  }
+ 
+ }
+ @media(width:820px){
+  body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    width: 200.6cm;
+    height: 28.6cm;
+  }
+  .originated{
+    width: 19cm;
+    margin: 1rem 1rem;
+    font-size: 28px;
+  }
+  .our-aim{
+    width: 19cm;
+    margin: 9rem 1rem;
+    font-size: 28px;
+  }
+  #phone{
+    margin:21rem 4rem;
+    width: 14cm;
+    height: 20cm;
+    rotate: -10deg;
+  }
+  .us{
+    font-size: 40px;
+  }
+ 
+ }
+ @media(width:912px){
+  body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    width: 24.1cm;
+    height: 32.8cm;
+    margin: 0;
+    overflow: hidden;
+    
+  }
+  .originated{
+    width: 20cm;
+    margin: -5rem -25rem;
+    font-size: 35px;
+    height: 7cm;
+  }
+  .our-aim{
+    width: 19cm;
+    margin: 7rem 2rem;
+    font-size: 35px;
+  }
+  #phone{
+    margin:32rem 9rem;
+    width: 14cm;
+    height: 20.5cm;
+    rotate: -10deg;
+  }
+  .us{
+    font-size: 45px;
+  }
+ 
+ }
+ @media(width:540px){
+  body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    width: 16.9cm;
+    height: 20.3cm;
+    overflow: hidden;
+  }
+  .originated{
+    width: 15cm;
+    margin: -6rem -29rem;
+    font-size: 25px;
+    height: 5cm;
+  }
+  .our-aim{
+    width: 13.6cm;
+    margin:-1rem -1rem;
+    font-size: 25px;
+  }
+  #phone{
+    margin:25rem 10rem;
+    width: 8cm;
+    height: 9cm;
+    rotate: -10deg;
+  }
+  .us{
+    font-size: 40px;
+  }
+ 
+ 
+ }
+ @media(width:344px){
+  body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    width: 16.82cm;
+    height: 40.3cm;
+    margin-left: 1px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  .originated{
+    width: 15cm;
+    margin: -3rem -28rem;
+    font-size: 40px;
+    height: 8cm;
+  }
+  .our-aim{
+     width: 14cm;
+    margin: 10rem -2rem;
+    font-size: 40px;
+  }
+  #phone{
+    margin:36rem 3rem;
+    width: 15cm;
+    height: 25cm;
+    rotate: -10deg;
+  }
+  .us{
+    font-size: 55px;
+    margin-left: 3cm;
+  }
+ 
+ }
+ @media(width:853px){
+   body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    width: 3vh;
+    height: 40.3cm;
+    border: solid white;
+    margin-left: 1px;
+  }
+  .originated{
+    width: 20cm;
+    margin: 3rem 1rem;
+    font-size: 40px;
+  }
+  .our-aim{
+      width: 20cm;
+    margin: 19rem 1rem;
+    font-size: 40px;
+  }
+  #phone{
+    margin:29.9rem 5rem;
+    width: 14cm;
+    height: 17.9cm;
+    rotate: -10deg;
+  }
+  .us{
+    font-size: 55px;
+  } 
+    /*  */
+ 
+  /*  
+  @media(width:1024px){
+  body{
+     overflow-x: hidden;
+    overflow-y: hidden; 
+     margin: 0;
+    padding: 0;
+  }
+  .content{
+    
+    height: 30cm;
+    margin-left: 54px;
+  }
+  .originated{
+    width: 16cm;
+    margin: 6rem 2cm;
+    font-size: 23px;
+    padding: 20px;
+    height: 2cm;
+  }
+  .our-aim{
+    width: 16cm;
+    margin: 5cm 4cm;
+    font-size: 23px;
+  }
+   #phone{
+    margin:13cm 5cm;
+    width: 13cm;
+    height: 17cm;
+    rotate: -10deg;
+  } 
+   .us{
+    font-size: 55px;
+  }
+ }  
+  
+
+
+
+ 

@@ -1,14 +1,71 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testimonials</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mitumba eSales</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="page-border">
+    <!-- Landing Page -->
+<nav class="navbar">
+    <div class="nav-center">
+        <div class="nav-header">
+            <a href="index.html">
+                <img src="image/logo.png" alt="Mitumba Logo" class="logo"/>
+            </a>
+            <button class="hamburger" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger-bars">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <i class="fa-solid fa-times hamburger-close" style="display: none;"></i>
+            </button>
+            <ul class="links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Categories</a></li>
+                <li><a href="how_it_works.html">About</a></li>
+                <li><a href="aboutUs.html">Testimonials</a></li>
+                <li><a href="faq.html">Contacts</a></li>
+                <li><button><i class="fa-brands fa-google-play"></i>Download App</button></li>
+            </ul>
+        
+        </div>
+    </div>
+</nav>
+
+
+  
+  <section class="hero" id="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Mitumba eSales</h1>
+      <p>The smarter way to shop high-quality <br>second-hand clothes.</p>
+      <a href="#" id="joinBtn" class="btn">Join now</a>
+    </div>
+  </section>
+
+  <div id="joinModal" class="modal">
+    <div class="modal-box">
+      <button class="close-modal" aria-label="Close">&times;</button>
+      <h2>Welcome to Mitumba eSales!</h2>
+      <p>Thanks for your interest. Our signup is coming soon.</p>
+      <button class="btn btn-small close-modal">Close</button>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+       <div class="page-border">
         <div class="testimonials-section">
             <h1 class="testimonials-title">Testimonials</h1>
             <div class="testimonial-bg">
@@ -21,6 +78,6 @@
 
         </div>
     </div>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

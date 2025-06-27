@@ -1,0 +1,495 @@
+@font-face {
+  font-family: poppins;
+  src: url(fonts/Poppins-Regular.ttf);
+}
+
+body {
+  font-family: poppins;
+}
+
+.steps {
+
+  flex-direction: column;
+  gap: 40px;
+  font-size: 15px;
+  margin-top: 8em;
+  margin-left: 29em;
+}
+
+
+.steps h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 7px;
+  color: blue;
+}
+
+#learn{
+  text-decoration: none;
+  color: darkblue;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 2%;
+    }
+#learn:hover {
+  background-color: yellow;
+  border: solid 1px;
+  font-size: 19px;
+  color: black;
+  cursor: pointer;
+    }
+
+
+
+
+
+.start-selling-btn {
+  display: block;
+
+}
+
+.centered-btn-container {
+  position: absolute;
+  left: 40vw;
+  top: 69vw;
+  padding: 5px 0px;
+  
+  
+}
+
+.start-shopping-btn {
+
+  background: #D1A128;
+  color: #fff;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 14px;
+  padding: 15px 64px;
+  cursor: pointer;
+  transition: background 0.2s;
+  letter-spacing: 0.01em;
+  box-shadow: none;
+
+
+}
+
+.start-shopping-btn:hover {
+  background: #DAA520;
+  justify-content: center;
+  
+}
+
+
+.app-works-section {
+  background: var(--white);
+  font-size: 0px;
+  display: flex;
+  margin-top: 1em;
+
+}
+
+.app-works-section h2 {
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  left: 27em;
+  color: darkblue;
+}
+
+
+
+
+
+.good-listing h4 {
+  font-size: 19px;
+  color: darkblue;
+  font-weight: 700;
+  margin-bottom: 7px;
+  /* max-width: 20%; */
+  max-width: 462.01px;
+
+}
+
+.offers-section {
+  display: flex;
+  font-size: 15px;
+  color: black;
+  gap: 120px;
+    margin-left: 6em;
+    margin-right: 6em;
+
+}
+
+.first-sales h4 {
+  font-size: 20px;
+  color: darkblue;
+  font-weight: 700;
+  margin-bottom: 7px;
+  max-width: 462.01px;
+
+}
+
+.offers-buyers h4 {
+  font-size: 20px;
+  color: darkblue;
+  font-weight: 700;
+  margin-bottom: 7px;
+  max-width: 462.01px;
+
+}
+
+#listing {
+  width: 25vw;
+}
+
+#sales {
+  width: 25vw;
+}
+
+#discount {
+  width: 25vw;
+}
+
+.good-listing {
+  /* margin-left: 6em; */
+}
+
+
+
+
+
+
+
+@media (max-width:480px) {
+  body {
+    margin: 0;
+    padding: 0;
+    padding: 7%;
+  }
+
+  .offers-section {
+    display: flow-root;
+    margin-left: 25em;
+  }
+
+  .app-works-section h2 {
+    font-size: 4px;
+    position: relative;
+    left: 1em;
+    top: -1em;
+  }
+
+  #listing {
+    width: 63vw;
+  }
+
+  #sales {
+    width: 63vw;
+  }
+
+  #discount {
+    width: 63vw;
+
+  }
+
+  .good-listing {
+    font-size: 17px;
+    margin-left: 3em;
+  }
+
+  .first-sales {
+    font-size: 17px;
+    margin-left: 3em;
+  }
+
+  .offers-buyers {
+    font-size: 17px;
+    margin-left: 3em;
+  }
+
+  .steps {
+    font-size: 14px;
+    margin-left: -15em;
+    margin-top: 6em;
+  }
+
+  .app-works-section h2 {
+    margin-top: 1em;
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .start-shopping-btn {
+    margin-top: 118em;
+    width: 9em;
+    margin-left: -3em;
+    padding: 5px 0px;
+
+  }
+
+  .offers-section {
+    margin-left: -1.5em;
+  }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    padding: 7%;
+  }
+
+  .offers-section {
+    margin-left: -25em;
+    display: flow-root;
+  }
+
+  .app-works-section h2 {
+    position: relative;
+    left: -1em;
+    top: -1em;
+  }
+
+  #listing {
+    width: 63vw;
+  }
+
+  #sales {
+    width: 63vw;
+  }
+
+  #discount {
+    width: 63vw;
+
+  }
+
+  .good-listing {
+    font-size: 17px;
+    margin-left: 3em;
+  }
+
+  .first-sales {
+    font-size: 17px;
+    margin-left: 3em;
+  }
+
+  .offers-buyers {
+    font-size: 17px;
+    margin-left: 3em;
+  }
+
+  .steps {
+    font-size: 14px;
+    margin-left: -34em;
+    margin-top: 6em;
+  }
+
+  .app-works-section h2 {
+    font-size: 22px;
+    margin-top: 1em;
+    font-size: 25px;
+    width: 90%;
+    position: relative;
+    left: -3em;
+    
+  }
+
+  .start-shopping-btn {
+    margin-top: 94em;
+    width: 9em;
+    margin-left: -1em;
+    padding: 5px 0px;
+
+  }
+
+  .offers-section {
+    margin-left: 0em;
+  }
+
+
+}
+
+
+@media (min-width:769px) and (max-width:1024px) {
+
+  .offers-section {
+    flex-direction: row;
+    margin-left: 6em;
+    margin-right: 1.5em;
+    
+
+  }
+
+  .app-works-section h2 {
+    position: relative;
+    left: 40em;
+    text-align: center;
+    margin-left: -70%;
+  }
+
+  #listing {
+    width: 27vw;
+  }
+
+  #sales {
+    width: 27vw;
+  }
+
+  #discount {
+    width: 27vw;
+
+  }
+
+  .good-listing {
+    font-size: 17px;
+  margin-left: -4em;
+  }
+
+  .first-sales {
+    font-size: 17px;
+  margin-left: -4em;
+  }
+
+  .offers-buyers {
+   
+  margin-left: -5em; 
+  }
+
+  .steps {
+   
+     margin-top: 7em;
+    margin-left: 52em; 
+    
+
+  }
+
+ 
+
+  .start-shopping-btn {
+    margin-top: 30em;
+   
+  width: 12em;
+  margin-left: -2em;
+  padding: 5px 0px; 
+
+  }
+
+ 
+}
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+.steps{
+ 
+  margin-left: 12em;
+}
+.app-works-section h2 {
+  position: relative;
+  left: 16.5em;
+}
+.start-shopping-btn{
+  margin-top: 15em;
+  margin-left: -1em;
+  width: 20vw;
+  padding: 18px 0px;
+}
+.offers-buyers{
+  margin-left: -25em;
+}
+.good-listing{
+  margin-left: -4em;
+}
+.first-sales{
+  margin-left: -23.5em;
+}
+#text{
+  width: 50%;
+}
+}
+
+@media  (width:912px) {
+.start-shopping-btn{
+  margin-top: 33em;
+  margin-left: -2em;
+  padding: 5px 0px;
+}
+.offers-buyers{
+  margin-left: -5.1em;
+}
+.good-listing{
+  margin-left: -3.5em;
+}
+.first-sales{
+  margin-left: -4em;
+}
+.steps{
+  margin-left: 42em;
+}
+.app-works-section h2{
+  position: relative;
+  left: 34em;
+}
+
+}
+
+@media  (width:853px) {
+
+  .steps{
+    margin-left: 37em;
+  }
+  .app-works-section h2 {
+    position: relative;
+    left: 32em;
+  }
+  .start-shopping-btn{
+    margin-top: 33em;
+  }
+  .first-sales{
+    margin-left: -5em;
+  }
+  .offers-buyers{
+  margin-left: -5em;
+  }
+  
+
+}
+
+@media  (width:820px){
+  .steps{
+    margin-left: 36em;
+  }
+    .app-works-section h2{
+      position: relative;
+      left: 31em;
+    }
+      .start-shopping-btn{
+        margin-top: 34em;
+      }
+    /* .offers-section{
+      margin-left: 4em;
+    
+    } */
+     .offers-buyers{
+     margin-left: -5em;
+     }
+.good-listing{
+margin-left: -4em;
+}
+.first-sales{
+margin-left: -4.5em;
+}
+}
+@media  (width:540px){
+  .steps{
+    margin-left: -26em;
+  }
+    .start-shopping-btn{
+      margin-top: 95.5em;
+    }
+     .app-works-section h2{
+      position: relative;
+      left: -1em;
+     }
+}

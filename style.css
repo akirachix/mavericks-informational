@@ -1,5 +1,885 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #222;
+}
+
+.app-works-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px 0 20px;
+}
+
+.app-works-section h1 {
+    text-align: center;
+    color: var(--main-blue);
+    font-weight: 550;
+    font-size: 2.8rem;
+    margin-top: 30px;
+    margin-bottom: 68px;
+    letter-spacing: 0.01em;
+
+}
+
+.process {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-bottom: 40px;
+}
+
+
+.process img {
+    width: 50px;
+    min-width: 50px;
+}
+
+.seller-lists {
+    flex-direction: column;
+    line-height: 2.5;
+}
+
+.buyer-buys {
+    flex-direction: column;
+}
+
+.payment {
+    flex-direction: column;
+}
+
+.process h4 {
+    color: #0B3D91;
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+.process p {
+    margin: 0;
+    color: #222;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.cards-row {
+    max-width: 1750px;
+    margin: 0 auto;
+    padding: 0 24px;
+    margin-top: 4%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+}
+
+.procedure-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cards-row>.good-listing,
+.cards-row>.first-sales,
+.cards-row>.buyers {
+    background: #fff;
+    box-shadow: var(--shadow);
+    flex: 1 1 320px;
+    max-width: var(--card-max-width);
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    transition: transform 0.18s cubic-bezier(.4, 0, .2, 1), box-shadow 0.18s cubic-bezier(.4, 0, .2, 1);
+    border: 0;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-right: 1vw;
+    line-height: 3;
+}
+
+.centered-btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.procedure-section button {
+    margin-left: 0 !important;
+}
+
+
+
+.procedure-section .buyers {
+    margin-right: 0;
+}
+
+
+.procedure-section div:hover {
+    transform: translateY(-6px) scale(1.022);
+    box-shadow: 0 8px 28px rgba(36, 75, 147, 0.12);
+    z-index: 1;
+}
+
+
+.procedure-section img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 18px;
+    border-radius: 6px 6px 0 0;
+    max-height: 480px;
+}
+
+.procedure-section h4 {
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: var(--main-blue);
+    margin: 0 0 10px 0;
+    letter-spacing: 0.01em;
+    padding: 0 22px 0 10px;
+}
+
+.procedure-section p#text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #222;
+    margin: 0 0 10px 10px;
+    line-height: 1.57;
+    padding-right: 22px;
+}
+
+#learn {
+    font-size: 1rem;
+    color: var(--gold);
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.13s;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 0;
+    background: none;
+    padding: 0 22px 10px 10px;
+    font-family: inherit;
+}
+
+#learn:focus,
+#learn:hover {
+    color: var(--primary-color);
+    outline: none;
+}
+
+.start-shopping-btn {
+    justify-content: center;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: var(--btn-radius);
+    min-width: 297px;
+    height: var(--btn-height);
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: background 0.2s, transform 0.14s;
+    letter-spacing: 0.01em;
+}
+
+.start-shopping-btn:hover,
+.start-shopping-btn:focus {
+    background: #b88b1a;
+    transform: scale(1.03);
+    outline: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .cards-row {
+        flex-direction: column;
+        gap: 24px;
+        padding: 0 2vw;
+        max-width: 100vw;
+        margin-bottom: 32px;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        min-width: unset;
+        max-width: unset;
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cards-row {
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 2vw;
+        justify-content: center;
+        max-width: 900px;
+        margin-bottom: 40px;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        flex: 0 1 48%;
+        min-width: 290px;
+        max-width: 430px;
+        margin-right: 0;
+        margin-bottom: 2vw;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) and (max-width: 1280px) {
+    .cards-row {
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 3vw;
+        justify-content: center;
+        max-width: 900px;
+        margin-bottom: 40px;
+    }
+
+     .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        flex: 0 1 48%;
+        min-width: 250px;
+        max-width: 430px;
+        margin-right: 0;
+        margin-bottom: 2vw;
+        line-height: normal;
+    } 
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .cards-row {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 1vw;
+        justify-content: center;
+        max-width: 1200px;
+        margin-bottom: 56px;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        flex: 1 1 0;
+        min-width: 280px;
+        max-width: 340px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+
+    html,
+    body {
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .procedure-section {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+
+    #buyers-heading {
+        line-height: 2.5;
+    }
+
+    .cards-row {
+        flex-wrap: nowrap;
+        gap: 1vw;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        overflow-x: hidden;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        flex: 1 1 0;
+        min-width: 0;
+        max-width: 330px;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: 100%;
+        line-height: normal;
+    }
+
+    .cards-row {
+        align-items: stretch;
+    }
+
+    .cards-row div {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+ 
+
+       .cards-row {
+        flex-wrap: nowrap;
+        gap: 2vw;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        overflow-x: hidden;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        flex: 1 1 0;
+        min-width: 0;
+        max-width: 210px;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: 100%;
+        line-height: normal;
+    }
+    .cards-row .buyers {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 820px) {
+  
+
+        .cards-row {
+        flex-wrap: nowrap;
+        gap: 2vw;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        overflow-x: hidden;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        flex: 1 1 0;
+        min-width: 0;
+        max-width: 210px;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: 100%;
+        line-height: normal;
+    }
+    .cards-row .buyers {
+        margin-right: 0;
+    }
+    .cards-row .buyers {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 912px) and (max-width: 912px) {
+    .cards-row {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 1vw;
+        justify-content: center;
+        align-items: stretch;
+        width: 91.5%;
+        margin-bottom: 32px;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        min-width: 150px;
+        max-width: 180x;
+        flex: 1 1 0;
+        margin: 0 0.5vw 0 0;
+        box-sizing: border-box;
+        line-height: 1.5;
+    }
+
+    .cards-row.buyers {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 853px) and (max-width: 853px) {
+ 
+
+       .cards-row {
+        flex-wrap: nowrap;
+        gap: 2vw;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        overflow-x: hidden;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        flex: 1 1 0;
+        min-width: 0;
+        max-width: 230px;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: 100%;
+        line-height: normal;
+    }
+
+    .cards-row.buyers {
+        margin-right: 0;
+    }
+
+}
+
+
+
+@media screen and (min-width: 430px) and (max-width: 430px) {
+
+    html,
+    body {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        position: relative;
+    }
+
+    * {
+        box-sizing: border-box !important;
+    }
+
+    *::before,
+    *::after {
+        box-sizing: border-box !important;
+    }
+
+    .offers-section {
+        margin-bottom: 10vw;
+        width: 105vw;
+    }
+
+    .app-works-section {
+        flex-direction: column;
+    }
+
+    .app-works-section h1 {
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-bottom: 22px;
+        text-align: center;
+        padding: 0 10px;
+        line-height: 1.13;
+    }
+
+    .process h4 {
+        font-size: 1.08rem;
+        margin: 0 0 2px 0;
+        padding-left: 0;
+        line-height: 1.2;
+    }
+
+    .process p {
+        font-size: 0.97rem;
+        margin: 0 0 4px 0;
+        line-height: 1.45;
+    }
+
+    .process img {
+        width: 30px;
+        min-width: 30px;
+        margin-bottom: 4px;
+    }
+
+    .procedure-section {
+        width: 100vw;
+        max-width: 430px;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-row {
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+        gap: 18px !important;
+        padding: 0 !important;
+        margin: 0 0 16px 0 !important;
+        width: 100% !important;
+        max-width: 430px !important;
+        align-items: center !important;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        width: 100% !important;
+        max-width: 370px !important;
+        min-width: 0 !important;
+        margin: 0 auto !important;
+        box-sizing: border-box;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .procedure-section img {
+        width: 100% !important;
+        max-width: 370px !important;
+        min-width: 0 !important;
+        object-fit: cover;
+        max-height: 170px;
+        border-radius: 8px 8px 0 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .procedure-section h4 {
+        font-size: 1.08rem;
+        padding: 0 12px;
+        margin-bottom: 4px;
+        margin-top: 8px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .procedure-section p#text {
+        font-size: 1rem;
+        padding: 0 12px 10px 12px;
+        margin: 0;
+        line-height: 1.5;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .centered-btn-container {
+        width: 100vw !important;
+        max-width: 430px !important;
+        margin-bottom: 16px;
+        margin-top: 0;
+        justify-content: center;
+        display: flex;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .centered-btn-container {
+        margin-top: 18%;
+        margin-left: -12.8%;
+    }
+
+    .start-shopping-btn {
+        width: 97vw;
+        max-width: 370px;
+        height: 10vw;
+        min-width: 0;
+        font-size: 1.1rem;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 344px) and (max-width: 344px) {
+   .seller-lists{
+    line-height: normal;
+   }
+}
+
+@media screen and (min-width: 375px) and (max-width: 375px) {
+    .seller-lists {
+        line-height: normal;
+    }
+
+    .process {
+        margin-top: -4em;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        width: 100% !important;
+        max-width: 330px !important;
+        min-width: 0 !important;
+        margin: 0 auto !important;
+        box-sizing: border-box;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+
+    }
+}
+
+
+@media screen and (min-width: 414px) and (max-width: 414px) {
+    .seller-lists {
+        line-height: normal;
+    }
+
+    .process {
+        margin-top: -4em;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        width: 100% !important;
+        max-width: 330px !important;
+        min-width: 0 !important;
+        margin: 0 auto !important;
+        box-sizing: border-box;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 390px) {
+    .seller-lists {
+        line-height: normal;
+    }
+
+    .process {
+        margin-top: -4em;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        width: 100% !important;
+        max-width: 330px !important;
+        min-width: 0 !important;
+        margin: 0 auto !important;
+        box-sizing: border-box;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 412px) {
+    .seller-lists {
+        line-height: normal;
+    }
+
+    .process {
+        margin-top: -4em;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        width: 100% !important;
+        max-width: 330px !important;
+        min-width: 0 !important;
+        margin: 0 auto !important;
+        box-sizing: border-box;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 360px) {
+    .seller-lists {
+        line-height: normal;
+    }
+
+    .process {
+        margin-top: -4em;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        width: 100% !important;
+        max-width: 330px !important;
+        min-width: 0 !important;
+        margin: 0 auto !important;
+        box-sizing: border-box;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+
+    }
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 400px) {
+
+    .procedure-section {
+        width: 100vw;
+        max-width: 430px;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-row {
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+        gap: 18px !important;
+        padding: 0 !important;
+        margin: 0 0 16px 0 !important;
+        width: 100% !important;
+        max-width: 430px !important;
+        align-items: center !important;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+    .cards-row .good-listing,
+    .cards-row .first-sales,
+    .cards-row .buyers {
+        width: 100% !important;
+        max-width: 350px !important;
+        min-width: 0 !important;
+        margin: 0 auto !important;
+        box-sizing: border-box;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+        /* overflow: hidden; */
+    }
+
+    .seller-lists{
+        line-height: normal;
+    }
+
+    .procedure-section img {
+        width: 100% !important;
+        max-width: 370px !important;
+        min-width: 0 !important;
+        object-fit: cover;
+        max-height: 170px;
+        border-radius: 8px 8px 0 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .procedure-section h4 {
+        font-size: 1.08rem;
+        padding: 0 12px;
+        margin-bottom: 4px;
+        margin-top: 8px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .procedure-section p#text {
+        font-size: 1rem;
+        padding: 0 12px 10px 12px;
+        margin: 0;
+        line-height: 1.5;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .centered-btn-container {
+        width: 100vw !important;
+        max-width: 430px !important;
+        margin-bottom: 16px;
+        margin-top: 0;
+        justify-content: center;
+        display: flex;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 :root {
-    --primary-color: #f4a621;
+    --primary-color: #daa520;
     --secondary-color: #fff;
     --accent-color: #2241a6;
     --arrow-size: 56px;
@@ -162,10 +1042,7 @@ button {
 
 }
 
-.links li a:hover {
-    color: var(--blue);
-    background: var(--blue);
-}
+
 
 .hamburger {
     display: none;
@@ -534,10 +1411,7 @@ button {
 
     }
 
-    .links li a:hover {
-        color: var(--blue);
-        background: var(--blue);
-    }
+  
 
 
 }
@@ -621,10 +1495,7 @@ button {
 
     }
 
-    .links li a:hover {
-        color: var(--blue);
-        background: var(--blue);
-    }
+  
 
 }
 
@@ -778,10 +1649,7 @@ button {
 
     }
 
-    .links li a:hover {
-        color: var(--blue);
-        background: var(--blue);
-    }
+  
 
 }
 
@@ -1017,6 +1885,512 @@ button {
 
     .hamburger-close {
         padding-right: 1rem;
+    }
+
+    .steps {
+
+        flex-direction: column;
+        gap: 40px;
+        font-size: 15px;
+        margin-top: 8em;
+        margin-left: 29em;
+    }
+
+
+    .steps h4 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 7px;
+        color: blue;
+    }
+
+    #learn {
+        text-decoration: none;
+        color: darkblue;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 2%;
+    }
+
+    #learn:hover {
+        background-color: yellow;
+        border: solid 1px;
+        font-size: 19px;
+        color: black;
+        cursor: pointer;
+    }
+
+
+
+
+
+    .start-selling-btn {
+        display: block;
+
+    }
+
+    .centered-btn-container {
+        position: absolute;
+        left: 40vw;
+        top: 69vw;
+        padding: 5px 0px;
+
+
+    }
+
+    .start-shopping-btn {
+
+        background: #D1A128;
+        color: #fff;
+        font-family: 'Poppins', Arial, sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 14px;
+        padding: 15px 64px;
+        cursor: pointer;
+        transition: background 0.2s;
+        letter-spacing: 0.01em;
+        box-shadow: none;
+
+
+    }
+
+    .start-shopping-btn:hover {
+        background: #DAA520;
+        justify-content: center;
+
+    }
+
+
+    .app-works-section {
+        background: var(--white);
+        font-size: 0px;
+        display: flex;
+        margin-top: 1em;
+
+    }
+
+    .app-works-section h2 {
+        text-align: center;
+        font-size: 25px;
+        position: relative;
+        left: 27em;
+        color: darkblue;
+    }
+
+
+
+
+
+    .good-listing h4 {
+        font-size: 19px;
+        color: darkblue;
+        font-weight: 700;
+        margin-bottom: 7px;
+        /* max-width: 20%; */
+        max-width: 462.01px;
+
+    }
+
+    .offers-section {
+        display: flex;
+        font-size: 15px;
+        color: black;
+        gap: 120px;
+        margin-left: 6em;
+        margin-right: 6em;
+
+    }
+
+    .first-sales h4 {
+        font-size: 20px;
+        color: darkblue;
+        font-weight: 700;
+        margin-bottom: 7px;
+        max-width: 462.01px;
+
+    }
+
+    .offers-buyers h4 {
+        font-size: 20px;
+        color: darkblue;
+        font-weight: 700;
+        margin-bottom: 7px;
+        max-width: 462.01px;
+
+    }
+
+    #listing {
+        width: 25vw;
+    }
+
+    #sales {
+        width: 25vw;
+    }
+
+    #discount {
+        width: 25vw;
+    }
+
+    .good-listing {
+        /* margin-left: 6em; */
+    }
+
+
+
+
+
+
+
+    @media (max-width:480px) {
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .offers-section {
+            display: flow-root;
+            margin-left: 25em;
+        }
+
+        .app-works-section h2 {
+            font-size: 4px;
+            position: relative;
+            left: 1em;
+            top: -1em;
+        }
+
+        #listing {
+            width: 63vw;
+        }
+
+        #sales {
+            width: 63vw;
+        }
+
+        #discount {
+            width: 63vw;
+
+        }
+
+        .good-listing {
+            font-size: 17px;
+            margin-left: 3em;
+        }
+
+        .first-sales {
+            font-size: 17px;
+            margin-left: 3em;
+        }
+
+        .offers-buyers {
+            font-size: 17px;
+            margin-left: 3em;
+        }
+
+        .steps {
+            font-size: 14px;
+            margin-left: -15em;
+            margin-top: 6em;
+        }
+
+        .app-works-section h2 {
+            margin-top: 1em;
+            font-size: 25px;
+            width: 90%;
+        }
+
+        .start-shopping-btn {
+            margin-top: 118em;
+            width: 9em;
+            margin-left: -3em;
+            padding: 5px 0px;
+
+        }
+
+        .offers-section {
+            margin-left: -1.5em;
+        }
+
+    }
+
+    @media only screen and (min-width:481px) and (max-width:768px) {
+        body {
+            margin: 0;
+            padding: 0;
+            padding: 7%;
+        }
+
+        .offers-section {
+            margin-left: -25em;
+            display: flow-root;
+        }
+
+        .app-works-section h2 {
+            position: relative;
+            left: -1em;
+            top: -1em;
+        }
+
+        #listing {
+            width: 63vw;
+        }
+
+        #sales {
+            width: 63vw;
+        }
+
+        #discount {
+            width: 63vw;
+
+        }
+
+        .good-listing {
+            font-size: 17px;
+            margin-left: 3em;
+        }
+
+        .first-sales {
+            font-size: 17px;
+            margin-left: 3em;
+        }
+
+        .offers-buyers {
+            font-size: 17px;
+            margin-left: 3em;
+        }
+
+        .steps {
+            font-size: 14px;
+            margin-left: -34em;
+            margin-top: 6em;
+        }
+
+        .app-works-section h2 {
+            font-size: 22px;
+            margin-top: 1em;
+            font-size: 25px;
+            width: 90%;
+            position: relative;
+            left: -3em;
+
+        }
+
+        .start-shopping-btn {
+            margin-top: 94em;
+            width: 9em;
+            margin-left: -1em;
+            padding: 5px 0px;
+
+        }
+
+        .offers-section {
+            margin-left: 0em;
+        }
+
+
+    }
+
+
+    @media (min-width:769px) and (max-width:1024px) {
+
+        .offers-section {
+            flex-direction: row;
+            margin-left: 6em;
+            margin-right: 1.5em;
+
+
+        }
+
+        .app-works-section h2 {
+            position: relative;
+            left: 40em;
+            text-align: center;
+            margin-left: -70%;
+        }
+
+        #listing {
+            width: 27vw;
+        }
+
+        #sales {
+            width: 27vw;
+        }
+
+        #discount {
+            width: 27vw;
+
+        }
+
+        .good-listing {
+            font-size: 17px;
+            margin-left: -4em;
+        }
+
+        .first-sales {
+            font-size: 17px;
+            margin-left: -4em;
+        }
+
+        .offers-buyers {
+
+            margin-left: -5em;
+        }
+
+        .steps {
+
+            margin-top: 7em;
+            margin-left: 52em;
+
+
+        }
+
+
+
+        .start-shopping-btn {
+            margin-top: 30em;
+
+            width: 12em;
+            margin-left: -2em;
+            padding: 5px 0px;
+
+        }
+
+
+    }
+
+    @media only screen and (min-width:1025px) and (max-width:1280px) {
+        .steps {
+
+            margin-left: 12em;
+        }
+
+        .app-works-section h2 {
+            position: relative;
+            left: 16.5em;
+        }
+
+        .start-shopping-btn {
+            margin-top: 15em;
+            margin-left: -1em;
+            width: 20vw;
+            padding: 18px 0px;
+        }
+
+        .offers-buyers {
+            margin-left: -25em;
+        }
+
+        .good-listing {
+            margin-left: -4em;
+        }
+
+        .first-sales {
+            margin-left: -23.5em;
+        }
+
+        #text {
+            width: 50%;
+        }
+    }
+
+    @media (width:912px) {
+        .start-shopping-btn {
+            margin-top: 33em;
+            margin-left: -2em;
+            padding: 5px 0px;
+        }
+
+        .offers-buyers {
+            margin-left: -5.1em;
+        }
+
+        .good-listing {
+            margin-left: -3.5em;
+        }
+
+        .first-sales {
+            margin-left: -4em;
+        }
+
+        .steps {
+            margin-left: 42em;
+        }
+
+        .app-works-section h2 {
+            position: relative;
+            left: 34em;
+        }
+
+    }
+
+    @media (width:853px) {
+
+        .steps {
+            margin-left: 37em;
+        }
+
+        .app-works-section h2 {
+            position: relative;
+            left: 32em;
+        }
+
+        .start-shopping-btn {
+            margin-top: 49em;
+        }
+
+        .first-sales {
+            margin-left: -5em;
+        }
+
+        .offers-buyers {
+            margin-left: -5em;
+        }
+
+
+    }
+
+    @media (width:820px) {
+        .steps {
+            margin-left: 36em;
+        }
+
+        .app-works-section h2 {
+            position: relative;
+            left: 31em;
+        }
+
+        .start-shopping-btn {
+            margin-top: 34em;
+        }
+
+        .offers-buyers {
+            margin-left: -5em;
+        }
+
+        .good-listing {
+            margin-left: -4em;
+        }
+
+        .first-sales {
+            margin-left: -4.5em;
+        }
+    }
+
+    @media (width:540px) {
+        .steps {
+            margin-left: -26em;
+        }
+
+        .start-shopping-btn {
+            margin-top: 95.5em;
+        }
+
+        .app-works-section h2 {
+            position: relative;
+            left: -1em;
+        }
     }
 
     .logo {
@@ -3461,12 +4835,10 @@ only screen and (min-width: 1019px) and (max-width: 1025px) {
     }
 
     .originated {
-        /* width: 110cm;
-    height: 50cm; */
 
         margin-left: -10vw;
         top: 10vw;
-        /* font-size: 2vw; */
+
         padding: 12px 10px 10px 40px;
     }
 
@@ -3733,7 +5105,7 @@ only screen and (min-width: 1019px) and (max-width: 1025px) {
     margin-bottom: 12px;
     font-weight: bold;
     letter-spacing: 1px;
-    /* z-index: 10; */
+
     position: relative;
 }
 
@@ -4219,10 +5591,7 @@ button {
 
 }
 
-.links li a:hover {
-    color: var(--blue);
-    background: var(--blue);
-}
+
 
 .hamburger {
     display: none;
@@ -4595,10 +5964,7 @@ button {
 
     }
 
-    .links li a:hover {
-        color: var(--blue);
-        background: var(--blue);
-    }
+   
 
 
 }
@@ -4682,10 +6048,7 @@ button {
 
     }
 
-    .links li a:hover {
-        color: var(--blue);
-        background: var(--blue);
-    }
+   
 
 }
 
@@ -4839,10 +6202,7 @@ button {
 
     }
 
-    .links li a:hover {
-        color: var(--blue);
-        background: var(--blue);
-    }
+   
 
 }
 
@@ -5096,19 +6456,19 @@ button {
 
 .hero-content h1 {
     font-size: 2.5rem;
-}
 
-.hero-content p {
-    font-size: 1.2rem;
-}
 
-.hamburger-close {
-    padding-right: 15rem;
-}
+    .hero-content p {
+        font-size: 1.2rem;
+    }
 
-.logo {
-    padding-left: 1rem;
-}
+    .hamburger-close {
+        padding-right: 15rem;
+    }
+
+    .logo {
+        padding-left: 1rem;
+    }
 
 }
 

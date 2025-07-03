@@ -3,76 +3,250 @@
 
 <head>
   <meta charset="UTF-8">
+  <title>Buying safely and securely</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>How the App works</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <section class="app-works-section">
-    <h2>How the App Works</h2>
-    <div class="steps">
+  <!-- Landing Page -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html">
+          <img src="image/logo.png" alt="Mitumba Logo" class="logo" />
+        </a>
+        <button class="hamburger" id="nav-toggle" aria-label="Toggle navigation">
+          <span class="hamburger-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <i class="fa-solid fa-times hamburger-close" style="display: none;"></i>
+        </button>
+        <ul class="links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#app-works-section">How it Works</a></li>
+          <li><a href="#about-us">About</a></li>
+          <li><a href="#page-border">Testimonials</a></li>
+          <li><a href="#contact">Contacts</a></li>
+          <li><button><i class="fa-brands fa-google-play"></i>Download App</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="hero" id="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Mitumba eSales</h1>
+      <p>The smarter way to shop high-quality <br>second-hand clothes.</p>
+      <a href="#" id="joinBtn" class="btn">Join now</a>
+    </div>
+  </section>
+  <div id="joinModal" class="modal">
+    <div class="modal-box">
+      <button class="close-modal" aria-label="Close">&times;</button>
+      <h2>Welcome to Mitumba eSales!</h2>
+      <p>Thanks for your interest. Our signup is coming soon.</p>
+      <button class="btn btn-small close-modal">Close</button>
+    </div>
+  </div>
+  <!-- How the app works -->
+
+  <section class="app-works-section" id="app-works-section">
+    <h1>How the App Works</h1>
+    <div class="process">
       <div class="seller-lists">
         <img src="https://img.icons8.com/ios-filled/50/faad14/sell.png" id="list-item" alt="List Item" />
         <div>
           <h4>Seller lists an item for sale</h4>
-          <p>Download the app or visit the website, add photos,<br>give a description & set your price</p>
+          <p>Download the app or visit the website, add photos, give a description & set your price</p>
+
         </div>
       </div>
-      <div class="buyer_buys">
+      <div class="buyer-buys">
         <img src="https://img.icons8.com/ios-filled/50/ffb300/shopping-bag--v2.png" id="buy-item" alt="Buy Item" />
         <div>
           <h4>Buyer buys an item</h4>
-          <p>The buyer finds an item they love, picks a delivery method <br>and safely completes the purchase.</p>
+          <p>The buyer finds an item they love, picks a delivery method and safely completes the purchase.</p>
         </div>
       </div>
       <div class="payment">
         <img src="https://img.icons8.com/ios-filled/50/4caf50/lock-2.png" id="pay" alt="Secure Payment" />
         <div>
           <h4>Holds payment securely</h4>
-          <p>The money is transferred to account and safely <br>held until the item reaches the buyer.</p>
+          <p>The money is transferred to account and safely held until the item reaches the buyer.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="offers-section">
-    <div class="good-listing">
-      <!-- <div> -->
+  <section class="procedure-section">
+    <div class="cards-row">
+      <div class="good-listing">
+
         <img src="images/image 57.png" id="listing" ,alt="listing">
         <h4>1.Creating a good listing</h4>
-        <p id="text">To get the most out of your experience on mitumbaesales.We have created a guide for the perfect
+        <p id="text">To get the most out of your experience on mitumbaesales.We have created a guide for perfect
           listing.There are a couple of things you need to know to boost your chances of sales and grow a base of
           satisfied buyers.</p>
         <a id="learn">Learn More</a>
-      <!-- </div> -->
-    </div>
-    <div class="first-sales">
-      <!-- <div> -->
+
+      </div>
+      <div class="first-sales">
+
         <img src="images/image 58.png" id="sales" alt="First Order">
         <h4>2.Receiving your first sales </h4>
-        <p id="text">The most important thing after listing items is not to start "waiting" for the right people to stumble
-          across your shop instead,start marketing your shop like a pro!Follow these simple steps and your first
+        <p id="text">The most important thing after listing items is not to start "waiting" for the right people to
+          stumble across your shop instead,start marketing your shop like a pro!Follow these simple steps and your first
           sales should be on their way.</p>
         <a id="learn">Learn More</a>
-      <!-- </div> -->
-    </div>
-    <div class="offers-buyers">
-      <!-- <div> -->
+
+      </div>
+      <div class="buyers">
+
         <img src="images/image 60.png" id="discount" alt="Offers">
-        <h4>3.Use offers to attract more buyers</h4>
+        <h4 id="buyers-heading">3.Use offers to attract more buyers</h4>
         <p id="text">Offer discounts or bundles(e.g 3tops for ksh 500) to get more attention Mitumba-E-sales lets you
           promote your items with special deals that make your shop stand out!</p>
         <a id="learn">Learn More</a>
-      <!-- </div> -->
-    </div>
-    <div class="centered-btn-container">
-      <button class="start-shopping-btn">Start Shopping</button>
-    </div>
+
+      </div>
+      </div>
+      <div class="centered-btn-container">
+        <button class="start-shopping-btn">Start Selling</button>
+      </div>
+    
   </section>
 
+  <!-- Buyer's Safety -->
+  <div class="container" id="container">
+    <h1>Buying safely and securely</h1>
+    <div class="steps-row">
+      <div class="step-card">
+        <img class="step-image" src="Images/letsshop.png" alt="Shopping Bags: Let's Go For Shopping" />
+        <div class="step-content">
+          <div class="step-title">1. Shopping guide</div>
+          <div class="step-desc">
+            Found something you just have to have? We have created this step-by-step guide to help you through the
+            purchase process. Get an overview of the delivery methods and payment options.
+          </div>
+          <button class="learn-more" data-step="1">Learn More</button>
+        </div>
+      </div>
+      <div class="step-card">
+        <img class="step-image" src="Images/addtocart.png" alt="Add to Cart for easy checkout"
+          style="background: #daa520;" />
+        <div class="step-content">
+          <div class="step-title">2. Add to cart for easy checkout</div>
+          <div class="step-desc">
+            Found something you like? Tap "Add to Cart" to save it while you keep shopping. You can review your cart and
+            remove or update items anytime before checkout.
+          </div>
+          <button class="learn-more" data-step="2">Learn More</button>
+        </div>
+      </div>
+      <div class="step-card">
+        <img class="step-image" src="Images/paymnent.png" alt="Pay securely through E-Sale" />
+        <div class="step-content">
+          <div class="step-title">3. Pay securely through Mitumba E-Sale</div>
+          <div class="step-desc">
+            We protect your money. Once you pay, the money is held safely by Mitumba E-Sale until you receive your
+            item.<br>No need to worry about being scammed.
+          </div>
+          <button class="learn-more" data-step="3">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="center-btn-row">
+      <button class="start-btn" id="startShopping">Start Shopping</button>
+    </div>
+  </div>
+  <!-- Offers -->
+  <section class="offers-section">
+    <h2 class="offers-title">Exclusive Offers and Smart Discounts</h2>
+    <div class="offers-row">
+      <img class="offer-img" src="Images/offers.png" alt="Special Offers">
+      <img class="offer-img" id="discount" src="Images/discount.png" alt="Special Discount">
+      <img class="offer-img" src="Images/arrivals.png" alt="New Arrivals">
+    </div>
+  </section>
+  <!-- About Us -->
+  <div class="about-us" id="about-us">
+    <h2 class="us">About Us</h2>
+    <div class="content">
+      <p id="originated" class="originated">Mitumba E-sale is a Kenyan-based digital platform that brings the vibrant
+        world of second-hand clothing online. We help you find quality mitumba clothes quickly and safely.</p>
+      <p id="our-aim" class="our-aim">Reduce closing waste. Empower local traders. Dress the world differently</p>
+      <img src="images/image.png" id="phone">
+    </div>
+  </div>
+  <!-- Testimonials -->
+  <div class="page-border" id="page-border">
+    <div class="testimonials-section">
+      <h1 class="testimonials-title">Testimonials</h1>
+      <div class="testimonial-bg">
+        <div class="testimonial-carousel">
+          <button class="arrow left-arrow" id="prevTestimonial">&#10094;</button>
+          <div class="testimonial-card" id="testimonialCard"></div>
+          <button class="arrow right-arrow" id="nextTestimonial">&#10095;</button>
+        </div>
+      </div>
 
+    </div>
+  </div>
 
+  <!-- Footer -->
+  <section class="footer-container">
+    <div class="faq">
+      <h1>FAQ</h1>
+      <div class="faq-item">
+        <p class="faq-question">What is Mitumba eSales? <span class="faq-toggle"><i
+              class="fas fa-chevron-down"></i></span></p>
+        <div class="faq-answer">
+          <p>Mitumba eSales is an online platform for buying and selling new or used clothes.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <p class="faq-question">How can I sell my items? <span class="faq-toggle"><i
+              class="fas fa-chevron-down"></i></span></p>
+        <div class="faq-answer">
+          <p>Create an account, list your items, and connect with buyers easily on our platform.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <p class="faq-question">Are the clothes new or used? <span class="faq-toggle"><i
+              class="fas fa-chevron-down"></i></span></p>
+        <div class="faq-answer">
+          <p>Both new and used clothes are available. Each listing specifies the condition of the item.</p>
+        </div>
+      </div>
+      <small>
+        <p id="still-question">Still have a question?</p>
+        <small>Visit our <a href="" id="faq-link">support portal</a> to find answers your questions</small>
+      </small>
+    </div>
+    <div class="contact" id="contact">
+      <h1>Contact Us</h1>
+      <form action="">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Yourmessage" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+  </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>

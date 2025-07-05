@@ -13,32 +13,42 @@
 </head>
 
 <body>
-  <!-- Landing Page -->
   <nav class="navbar">
-    <div class="nav-center">
-      <div class="nav-header">
-        <a href="index.html">
-          <img src="image/logo.png" alt="Mitumba Logo" class="logo" />
-        </a>
-        <button class="hamburger" id="nav-toggle" aria-label="Toggle navigation">
-          <span class="hamburger-bars">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-          <i class="fa-solid fa-times hamburger-close" style="display: none;"></i>
-        </button>
-        <ul class="links" id="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#app-works-section">How it Works</a></li>
-          <li><a href="#about-us">About</a></li>
-          <li><a href="#page-border">Testimonials</a></li>
-          <li><a href="#contact">Contacts</a></li>
-          <li><button><i class="fa-brands fa-google-play"></i>Download App</button></li>
-        </ul>
-      </div>
+  <div class="logo">
+    <img src="image/logo.png" alt="Logo">
+  
+  </div>
+  
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#app-works-section">How it Works</a></li>
+    <li><a href="#about-us">About</a></li>
+    <li><a href="#page-border">Testimonials</a></li>
+    <li><a href="#contact">Contacts</a></li>
+    <li><button class="btn-download"><i class="fa-brands fa-google-play"></i>Download App</button></li>
+  </ul>
+
+  <div class="hamburger" id="hamburger">&#9776;</div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="menu-header">
+    <div class="menu-logo">
+      <img src="image/logo.png" alt="Logo">
     </div>
-  </nav>
+    <div class="close-btn" id="closeBtn">&times;</div>
+  </div>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#app-works-section">How it Works</a></li>
+    <li><a href="#about-us">About</a></li>
+    <li><a href="#page-border">Testimonials</a></li>
+    <li><a href="#contact">Contacts</a></li>
+    <li><button class="btn-download"><i class="fa-brands fa-google-play"></i>Download App</button></li>
+  </ul>
+</div>
+
   <section class="hero" id="hero">
     <div class="overlay"></div>
     <div class="hero-content">
@@ -116,11 +126,11 @@
         <a id="learn">Learn More</a>
 
       </div>
-      </div>
-      <div class="centered-btn-container">
-        <button class="start-shopping-btn">Start Selling</button>
-      </div>
-    
+    </div>
+    <div class="centered-btn-container">
+      <button class="start-shopping-btn">Start Selling</button>
+    </div>
+
   </section>
 
   <!-- Buyer's Safety -->
